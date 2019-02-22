@@ -1,0 +1,12 @@
+@types/jest
+@types/lodash
+@types/sinon
+axios-mock-adapter
+jest
+nodemon
+sinon
+ts-jest
+ts-node
+tslint
+tslint-config-prettier
+typescript

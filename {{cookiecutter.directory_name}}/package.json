@@ -1,0 +1,25 @@
+{
+    "name": "{{cookiecutter.module_name}}",
+    "version": "1.0.0",
+    "main": "src/index.ts",
+    "author": {
+        "name": "{{cookiecutter.author_name}}",
+        "email": "{{cookiecutter.author_email}}"
+    },
+    "repository": {
+        "type" : "git",
+        "url" : "https://github.com/{{cookiecutter.author_gh_username}}/{{cookiecutter.module_name}}.git"
+    },
+    "license": "MIT",
+    "devDependencies": {},
+    "scripts": {
+        "start": "ts-node src/index.ts",
+        "debug": "node --inspect=5858 -r ts-node/register src/index.ts",
+        "dev": "npx nodemon",
+        "build": "npx typescript",
+        "clean": "rm -rf dist",
+        "test": "jest",
+        "test:watch": "jest --watch"
+    },
+    "dependencies": {}
+}
