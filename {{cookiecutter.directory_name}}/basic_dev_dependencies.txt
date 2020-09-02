@@ -1,10 +1,8 @@
 @types/jest
 @types/lodash
-@types/sinon
-axios-mock-adapter
 jest
+jest-junit
 nodemon
-sinon
 ts-jest
 ts-node
 tslint
