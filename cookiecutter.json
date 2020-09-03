@@ -2,7 +2,7 @@
 	"project_name": "Example App",
 	"directory_name": "{{ cookiecutter.project_name|lower|replace(' ', '-') }}",
 	"module_name": "{{ cookiecutter.directory_name }}",
-	"author_name": "Romain Moreau",
-	"author_email": "moreau.romain83@gmail.com",
-	"author_gh_username": "Varkal"
+	"author_name": "Mitt namn",
+	"author_email": "min@email",
+	"author_gh_username": "ttab"
 }
