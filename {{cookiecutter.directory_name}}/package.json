@@ -20,7 +20,7 @@
         "clean": "rm -rf dist",
         "test": "jest",
         "test:watch": "jest --watch",
-        "ci-text": "yarn install --dev && jest --reporters=jest-junit"
+        "ci-test": "yarn install --dev && jest --reporters=jest-junit"
     },
     "dependencies": {}
 }

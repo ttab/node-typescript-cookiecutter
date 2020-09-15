@@ -13,6 +13,6 @@
     "**/*.test.ts"
   ],
   "include": [
-    "src/**/*.ts"
+    "lib/**/*.ts"
   ]
 }
