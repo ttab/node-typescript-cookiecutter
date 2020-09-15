@@ -4,7 +4,6 @@ jest
 jest-junit
 nodemon
 ts-jest
-ts-node
 tslint
 tslint-config-prettier
 typescript

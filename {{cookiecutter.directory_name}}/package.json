@@ -1,7 +1,7 @@
 {
     "name": "{{cookiecutter.module_name}}",
     "version": "1.0.0",
-    "main": "lib/index.ts",
+    "main": "src/index.ts",
     "author": {
         "name": "{{cookiecutter.author_name}}",
         "email": "{{cookiecutter.author_email}}"
@@ -13,8 +13,8 @@
     "license": "MIT",
     "devDependencies": {},
     "scripts": {
-        "start": "ts-node lib/index.ts",
-        "debug": "node --inspect=5858 -r ts-node/register lib/index.ts",
+        "start": "ts-node src/index.ts",
+        "debug": "node --inspect=5858 -r ts-node/register src/index.ts",
         "dev": "npx nodemon",
         "build": "npx typescript",
         "clean": "rm -rf dist",

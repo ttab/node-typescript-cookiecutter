@@ -1,1 +1,5 @@
 lodash
+amqp-as-promised
+ttab/confer#semver:v2
+ttab/leget-heartbeat#semver:v3.3
+ts-node
