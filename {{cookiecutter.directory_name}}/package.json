@@ -16,11 +16,12 @@
         "start": "ts-node src/index.ts",
         "debug": "node --inspect=5858 -r ts-node/register src/index.ts",
         "dev": "npx nodemon",
+        "lint": "eslint src",
         "build": "npx typescript",
         "clean": "rm -rf dist",
-        "test": "jest",
+        "test": "eslint src && jest",
         "test:watch": "jest --watch",
-        "ci-test": "yarn install --dev && jest --reporters=jest-junit"
+        "ci-test": "yarn install --dev && eslint src && jest --reporters=jest-junit"
     },
     "dependencies": {}
 }
