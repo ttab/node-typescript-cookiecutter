@@ -1,4 +1,4 @@
-FROM harbor.a.tt.se/ttab/node-erbium
+FROM harbor.a.tt.se/ttab/node-fermium
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 COPY package.json yarn.lock /usr/src/app/
